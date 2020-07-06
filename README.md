@@ -5,7 +5,7 @@ BMO Technical Test running on Python, using Robot Framework and Selenium. This v
 1. Checkout project through (recommended: PyCharm IDE)
 2. Through terminal run Search.robot file to execute tests
 ```robot -d results Tests/just-eat.co.uk/HomePage/Search.robot```
-3. To see results, open either log.html or report.html files after each run through any browser.
+3. To see results, open either log.html or report.html files after each run through any browser. The files will be under "Results" folder in the projectg.
 
 ### Configure browsers and URL
 The URL for this test is supposed to be fixed, however, the structure on this framework allows the user to configure a test URL and browser through code or console terminal.
