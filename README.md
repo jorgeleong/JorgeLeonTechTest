@@ -8,7 +8,7 @@ BMO Technical Test running on Python, using Robot Framework and Selenium. This v
 3. To see results, open either log.html or report.html files after each run through any browser. The files will be under "Results" folder in the projectg.
 
 ### Configure browsers and URL
-The URL for this test is supposed to be fixed, however, the structure on this framework allows the user to configure a test URL and browser through code or console terminal.
+Default values for this test are set to work with the just-eat.co.uk test website, using Google Chrome. The structure on this framework allows the user to configure a test URL and browser through code or console terminal.
 
 1. Through Terminal: 
 ```robot -d results -v browser:chrome -v test_url:http://www.just-eat.co.uk Tests/just-eat.co.uk/HomePage/Search.robot```
